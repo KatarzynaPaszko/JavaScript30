@@ -1,0 +1,34 @@
+* {
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.selectors {
+  height: 70px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.selectors div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+canvas {
+  border: 5px solid black;
+}
+/*:root {
+  --base:#ffc600;
+  --spacing:10px;
+  --blur:10px;
+
+}
+
+img {
+  padding: var(--spacing);
+  background: var(--base);
+  filter:blur(var(--blur));
+}*/
